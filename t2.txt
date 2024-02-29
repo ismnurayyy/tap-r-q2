@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+    </style>
+
+</head>
+<body bgcolor="silver" style="margin-left: 6cm; margin-top: 3cm;" >
+    <h2 style="text-align:center;"> Məlumat Cədvəli</h2>
+<table border="1" style="text-align:center;" )"
+ >
+    
+    <thead>
+        <tr>
+            <th colspan="5" style="background-color: blue;">Şagirdlər</th>
+        </tr>
+        <tr style="background-color: cornflowerblue;" >
+            <td rowspan="2" >NO</td>
+            <td rowspan="2">Foto</td>
+            <td rowspan="2">Ad Soyad</td>
+            <td colspan="2">Əlaqə</td>
+            <tr style="background-color: cornflowerblue;">
+                <td>Tel 1</td>
+                <td>Tel 2</td>
+            </tr>
+        </tr>
+        
+        
+        <tr >
+            <td>1</td>
+            <td ><img width="100" src="AG.jpg" alt="foto açılmır"></td>
+            <td>Dəniz Mustafayeva</td>
+            <td>0605246315</td>
+            <td>0702587964</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td ><img width="100" src="logo.jpg" alt="foto açılmır"></td>
+            <td>Nuray İsmayılova</td>
+            <td>0603625419</td>
+            <td>0602563145</td>
+        </tr>
+    </thead>
+</table>
+
+    
+</body>
+</html>
